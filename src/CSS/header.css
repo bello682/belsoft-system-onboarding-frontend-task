@@ -92,6 +92,7 @@
 
 	.header-links-button.active-menu {
 		display: flex;
+		justify-content: flex-start;
 	}
 
 	.header_ul {
@@ -100,9 +101,13 @@
 	}
 
 	.header_btn {
-		width: 90%;
+		width: 100%;
 		text-align: center;
 		margin-top: 10px;
+	}
+
+	.header_btn {
+		margin-top: 3rem;
 	}
 
 	.hamburger {
