@@ -23,25 +23,37 @@ const Header = ({ activeLink, setActiveLink }) => {
 						<ul className="header_ul">
 							<li
 								className={activeLink === "Home" ? "active" : ""}
-								onClick={() => setActiveLink("Home")}
+								onClick={() => {
+									setActiveLink("Home");
+									setIsOpen(!isOpen);
+								}}
 							>
 								<Link to="/">Home</Link>
 							</li>
 							<li
 								className={activeLink === "About Us" ? "active" : ""}
-								onClick={() => setActiveLink("About Us")}
+								onClick={() => {
+									setActiveLink("About Us");
+									setIsOpen(!isOpen);
+								}}
 							>
 								<Link to="/who-are">About Us</Link>
 							</li>
 							<li
 								className={activeLink === "Gallery" ? "active" : ""}
-								onClick={() => setActiveLink("Gallery")}
+								onClick={() => {
+									setActiveLink("Gallery");
+									setIsOpen(!isOpen);
+								}}
 							>
 								<Link to="/founder-friday">Gallery</Link>
 							</li>
 							<li
 								className={activeLink === "Contact Us" ? "active" : ""}
-								onClick={() => setActiveLink("Contact Us")}
+								onClick={() => {
+									setActiveLink("Contact Us");
+									setIsOpen(!isOpen);
+								}}
 							>
 								<Link to="/sponsor-next-friday">Contact Us</Link>
 							</li>
