@@ -1,0 +1,75 @@
+.founders_friday2_container {
+	width: 100%;
+	position: relative;
+	margin-bottom: 7rem;
+}
+
+.founders_friday2_sub_container {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	gap: 3rem;
+}
+
+.founders_friday2_content_div {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.founders_friday2_heading {
+	margin-bottom: 3rem;
+	font-size: 20px;
+	font-weight: 700;
+	max-width: 500px;
+}
+
+.founders_friday2_button {
+	margin-top: 1rem;
+}
+
+.founders_friday2_link {
+	background-color: #a649ff;
+	color: white;
+	padding: 13px 50px;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+	transition: background-color 0.3s ease;
+}
+
+.founder_friday_text {
+	font-size: 16px;
+	margin-bottom: 1rem;
+}
+
+.founder_friday_heading {
+	font-size: 40px;
+	font-weight: 600;
+	max-width: 400px;
+}
+
+.founders_friday2_images_div .founders_friday2_img1 {
+	width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+	.founders_friday2_sub_container {
+		flex-direction: column;
+	}
+
+	.founders_friday2_content_div {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}

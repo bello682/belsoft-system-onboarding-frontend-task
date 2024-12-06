@@ -1,0 +1,69 @@
+.want_part_abuja_container {
+	width: 100%;
+	margin-bottom: 7rem;
+}
+
+.want_part_abuja_sub_ontainer {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+.want_part_abuja_sub_image_logo {
+	width: 150px;
+}
+
+.want_part_abuja_content {
+	width: 100%;
+	padding: 20px 20px;
+	margin: 30px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.want_part_abuja_content h2 {
+	font-size: 40px;
+	font-weight: 700;
+	max-width: 700px;
+	text-align: center;
+	line-height: 1;
+}
+
+.want_part_abuja_btn_icon_FaAngleDoubleRight {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	margin-top: 3rem;
+	padding: 10px 40px;
+	border: 2px solid #9524ff;
+	border-radius: 40px;
+	background-color: transparent;
+	color: #9524ff;
+	font-size: 30px;
+	cursor: pointer;
+	transition: transform 0.2s ease-in-out;
+}
+
+@media only screen and (max-width: 767px) {
+	.want_part_abuja_content h2 {
+		font-size: 20px;
+	}
+
+	.want_part_abuja_btn_icon_FaAngleDoubleRight {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.want_part_abuja_content h2 {
+		font-size: 25px;
+	}
+
+	.want_part_abuja_btn_icon_FaAngleDoubleRight {
+		font-size: 20px;
+	}
+}

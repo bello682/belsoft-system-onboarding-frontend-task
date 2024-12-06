@@ -1,0 +1,112 @@
+.banner_founder_friday_coming_container {
+	width: 100%;
+	position: relative;
+	margin-bottom: 5rem;
+}
+
+.banner_founder_friday_coming_sub_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	width: 90%;
+}
+
+.banner_founder_friday_coming_content {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 10rem;
+}
+
+.banner_founder_friday_coming_content_img_logo_banner,
+.banner_founder_friday_coming_content_text_desc_btn {
+	width: 100%;
+}
+
+.banner_founder_friday_coming_content_label {
+	font-size: 40px;
+	font-weight: 700;
+	color: white;
+}
+
+.banner_founder_friday_coming_content_leading_dynamic_change {
+	font-size: 100px;
+	font-weight: 900;
+	color: #a25ce3;
+}
+
+.banner_founder_friday_coming_content_body {
+	max-width: 600px;
+	font-size: 18px;
+	color: white;
+	margin-bottom: 1.5rem;
+}
+
+.banner_founder_friday_coming_content_button_register {
+	border: 2px solid #a25ce3;
+	background-color: transparent;
+	color: #a25ce3;
+	padding: 10px 50px;
+	border-radius: 100px;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+	.banner_founder_friday_coming_content_img_logo_banner {
+		display: none;
+	}
+
+	.banner_founder_friday_coming_image_bg {
+		height: 50vh;
+	}
+
+	.banner_founder_friday_coming_content {
+		gap: 3rem;
+	}
+
+	.banner_founder_friday_coming_content_label {
+		line-height: 1;
+	}
+
+	.banner_founder_friday_coming_content_leading_dynamic_change {
+		font-size: 70px;
+	}
+
+	.banner_founder_friday_coming_content_body {
+		margin-bottom: 0.5rem;
+		line-height: 1.5;
+	}
+
+	.banner_founder_friday_coming_image_bg {
+		height: 65vh;
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.banner_founder_friday_coming_content {
+		gap: 3rem;
+	}
+
+	.banner_founder_friday_coming_content_label {
+		line-height: 1;
+	}
+
+	.banner_founder_friday_coming_content_leading_dynamic_change {
+		font-size: 70px;
+	}
+
+	.banner_founder_friday_coming_content_body {
+		margin-bottom: 0.5rem;
+		line-height: 1.5;
+	}
+
+	.banner_founder_friday_coming_image_bg {
+		height: 45vh;
+	}
+}

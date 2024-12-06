@@ -1,0 +1,83 @@
+.what_do_our_attendees_say_container {
+	width: 100%;
+	margin-bottom: 7rem;
+}
+
+.what_do_our_attendees_say_sub_container {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.what_do_our_attendees_say_content h1 {
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.what_do_our_attendees_say_content_wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.what_do_our_attendees_say_content_sub_div {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 70%;
+}
+
+.what_do_our_attendees_say_content_sub_div p {
+	text-align: center;
+	font-size: 17px;
+	font-weight: 500;
+	margin-bottom: 20px;
+	color: #cccccc;
+}
+
+.what_do_our_attendees_say_icons {
+	display: flex;
+}
+
+.what_do_our_attendees_say_icons div {
+	width: 60px;
+	aspect-ratio: 1/1;
+	border: 2px solid #e2a7f7;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	font-size: 25px;
+}
+
+.what_do_our_attendees_say_card_map {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 4rem;
+	flex-wrap: wrap;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+	.what_do_our_attendees_say_content h1 {
+		font-size: 30px;
+		margin-bottom: 2rem;
+	}
+
+	.what_do_our_attendees_say_content_sub_div {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}

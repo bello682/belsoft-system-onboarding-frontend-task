@@ -1,0 +1,204 @@
+.sponsor_the_next_friday_container {
+	width: 100%;
+	margin-bottom: 5rem;
+}
+
+.sponsor_the_next_friday_sub_container {
+	width: 90%;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+.sponsor_the_next_friday_content {
+	display: flex;
+	justify-content: space-around;
+	gap: 2rem;
+	margin: auto;
+}
+
+.sponsor_the_next_friday_circle_div {
+	border: 1px solid #a25ce3;
+	border-radius: 15px;
+	box-shadow: 10px 10px 90px 0px rgb(0, 0, 0, 0.2);
+	width: 50%;
+	max-width: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 0px;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.sponsor_the_next_friday_circle {
+	width: 200px;
+	aspect-ratio: 1/1;
+	border-radius: 50%;
+	border: 1px solid #a25ce3;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #dcb6ff;
+}
+
+.sponsor_the_next_friday_circle h2 {
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
+	width: 100%;
+	max-width: 150px;
+	margin-bottom: 10px;
+}
+
+.sponsor_the_next_friday_circle p {
+	width: 100%;
+	max-width: 150px;
+	text-align: center;
+	font-size: 15px;
+}
+
+.sponsor_the_next_friday_text_form_div {
+	width: 50%;
+}
+
+.sponsor_the_next_friday_text_form_div h1 {
+	font-size: 25px;
+	font-weight: 900;
+}
+
+.sponsor_the_next_friday_text_form_div h2 {
+	font-size: 17px;
+}
+
+.sponsor_the_next_friday_text_form_div p {
+	max-width: 600px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.sponsor_form_input .sponsor_label_input_1,
+.sponsor_form_input .sponsor_label_input_2 {
+	display: flex;
+	gap: 2rem;
+	margin-bottom: 5px;
+}
+
+.sponsor_label_input_1 input,
+.sponsor_label_input_2 input {
+	width: 100%;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 10px 10px;
+	margin-top: 5px;
+}
+
+.sponsor_btn {
+	background-color: #8b00ff;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	padding: 10px 40px;
+	font-size: 18px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.Sponsor_founder_h1_div {
+	max-width: 400px;
+	margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 767px) {
+	.sponsor_the_next_friday_content {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		gap: 2rem;
+		margin: auto;
+	}
+
+	.sponsor_the_next_friday_circle_div {
+		border: 1px solid #a25ce3;
+		border-radius: 15px;
+		box-shadow: 10px 10px 90px 0px rgb(0, 0, 0, 0.2);
+		width: 100%;
+		max-width: 500px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 30px 0px;
+		flex-wrap: wrap;
+		gap: 1rem;
+	}
+
+	.sponsor_the_next_friday_text_form_div {
+		width: 100%;
+	}
+
+	.sponsor_the_next_friday_circle {
+		width: 150px;
+		aspect-ratio: 1/1;
+		border-radius: 50%;
+		border: 1px solid #a25ce3;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background: #dcb6ff;
+	}
+
+	.sponsor_the_next_friday_circle h2 {
+		font-weight: 800;
+		font-size: 15px;
+		text-align: center;
+		width: 100%;
+		max-width: 100px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	.sponsor_the_next_friday_circle p {
+		width: 100%;
+		max-width: 100px;
+		text-align: center;
+		font-size: 11px;
+	}
+
+	.sponsor_the_next_friday_leading_text {
+		font-size: 30px;
+		margin-bottom: 0;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.sponsor_the_next_friday_circle {
+		width: 150px;
+		aspect-ratio: 1/1;
+		border-radius: 50%;
+		border: 1px solid #a25ce3;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background: #dcb6ff;
+	}
+
+	.sponsor_the_next_friday_circle h2 {
+		font-weight: 800;
+		font-size: 15px;
+		text-align: center;
+		width: 100%;
+		max-width: 100px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	.sponsor_the_next_friday_circle p {
+		width: 100%;
+		max-width: 100px;
+		text-align: center;
+		font-size: 11px;
+	}
+}
