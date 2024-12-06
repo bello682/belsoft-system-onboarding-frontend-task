@@ -152,6 +152,7 @@
 	.hero_container {
 		width: 100%;
 		height: 100vh;
+		margin-bottom: 2rem;
 	}
 
 	.hero_details--2 {
