@@ -13,9 +13,9 @@
 
 .register_and_be_part_community_container_bg_image_2 {
 	position: absolute;
-	/* top: 0%; */
 	bottom: 15%;
 	left: 5%;
+	width: 90%;
 }
 
 .register_and_be_part_community_sub_container {
