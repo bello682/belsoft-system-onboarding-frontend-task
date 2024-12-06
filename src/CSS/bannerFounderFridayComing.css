@@ -33,10 +33,28 @@
 	color: white;
 }
 
-.banner_founder_friday_coming_content_leading_dynamic_change {
+.dynamic_text_container {
+	height: 100px;
+	overflow: hidden;
+	position: relative;
 	font-size: 100px;
 	font-weight: 900;
 	color: #a25ce3;
+}
+
+.sliding_text {
+	position: absolute;
+	transition: transform 1s ease, opacity 1s ease;
+}
+
+.fade-slide-up {
+	transform: translateY(-50px);
+	opacity: 0;
+}
+
+.sliding_text:not(.fade-slide-up) {
+	transform: translateY(0);
+	opacity: 1;
 }
 
 .banner_founder_friday_coming_content_body {
@@ -62,7 +80,7 @@
 	}
 
 	.banner_founder_friday_coming_image_bg {
-		height: 50vh;
+		height: 70vh;
 	}
 
 	.banner_founder_friday_coming_content {
@@ -73,8 +91,13 @@
 		line-height: 1;
 	}
 
-	.banner_founder_friday_coming_content_leading_dynamic_change {
+	.dynamic_text_container {
+		height: 100px;
+		overflow: hidden;
+		position: relative;
 		font-size: 70px;
+		font-weight: 900;
+		color: #a25ce3;
 	}
 
 	.banner_founder_friday_coming_content_body {
@@ -83,7 +106,7 @@
 	}
 
 	.banner_founder_friday_coming_image_bg {
-		height: 65vh;
+		height: 70vh;
 		width: 100%;
 	}
 }
