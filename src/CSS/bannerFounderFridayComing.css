@@ -34,12 +34,13 @@
 }
 
 .dynamic_text_container {
-	height: 100px;
+	height: 115px;
 	overflow: hidden;
 	position: relative;
 	font-size: 80px;
 	font-weight: 900;
 	color: #a25ce3;
+	padding-bottom: 1rem;
 }
 
 .sliding_text {
