@@ -52,6 +52,7 @@
 	align-items: center;
 	background-color: transparent;
 	font-size: 25px;
+	cursor: pointer;
 }
 
 .what_do_our_attendees_say_card_map {
@@ -63,6 +64,8 @@
 	flex-wrap: wrap;
 	padding: 20px;
 	margin-top: 20px;
+	overflow: hidden;
+	transition: transform 0.5s ease-in-out;
 }
 
 @media only screen and (max-width: 767px) {
@@ -77,7 +80,14 @@
 		align-items: center;
 		width: 100%;
 	}
+
+	.what_do_our_attendees_say_card_map {
+		gap: 1rem;
+	}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.what_do_our_attendees_say_card_map {
+		gap: 1.5rem;
+	}
 }
