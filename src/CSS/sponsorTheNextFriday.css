@@ -138,7 +138,7 @@
 	}
 
 	.sponsor_the_next_friday_circle {
-		width: 150px;
+		width: 160px;
 		aspect-ratio: 1/1;
 		border-radius: 50%;
 		border: 1px solid #a25ce3;
@@ -147,6 +147,7 @@
 		justify-content: center;
 		align-items: center;
 		background: #dcb6ff;
+		padding: 20px;
 	}
 
 	.sponsor_the_next_friday_circle h2 {
@@ -157,7 +158,6 @@
 		max-width: 100px;
 		margin-bottom: 10px;
 		margin-top: 10px;
-		padding-top: 10px;
 	}
 
 	.sponsor_the_next_friday_circle p {
@@ -165,7 +165,6 @@
 		max-width: 100px;
 		text-align: center;
 		font-size: 11px;
-		padding-bottom: 20px;
 	}
 
 	.sponsor_the_next_friday_leading_text {
