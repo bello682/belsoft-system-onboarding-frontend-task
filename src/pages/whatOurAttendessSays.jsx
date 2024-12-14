@@ -129,11 +129,31 @@ const WhatOurAttendessSays = () => {
 						<div className="what_do_our_attendees_say_content_sub_div">
 							<p>Well See For Yourself!</p>
 							<div className="what_do_our_attendees_say_icons">
-								<div onClick={slideLeft}>
-									<IoArrowBackOutline className="icon_FaArrowLeft" />
+								<div
+									onClick={currentSlide > 0 ? slideLeft : undefined}
+									className={
+										currentSlide === 0
+											? "icon_FaArrowLeft dimmed"
+											: "icon_FaArrowLeft"
+									}
+								>
+									<IoArrowBackOutline />
 								</div>
-								<div onClick={slideRight}>
-									<IoArrowForward className="icon_FaArrowRight" />
+								<div
+									onClick={
+										currentSlide + 1 <
+										Math.ceil(cardsData.length / visibleCards)
+											? slideRight
+											: undefined
+									}
+									className={
+										currentSlide + 1 >=
+										Math.ceil(cardsData.length / visibleCards)
+											? "icon_FaArrowRight dimmed"
+											: "icon_FaArrowRight"
+									}
+								>
+									<IoArrowForward />
 								</div>
 							</div>
 						</div>
