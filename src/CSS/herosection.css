@@ -66,7 +66,7 @@
 
 .hero_small_text_icon {
 	display: flex;
-	gap: 10px;
+	gap: 5px;
 	margin-top: 2rem;
 }
 
@@ -85,12 +85,12 @@
 }
 
 .hero_company_logos {
-	width: 60%;
+	width: 100%;
 	margin-top: 2rem;
 }
 
 .hero_company_logos img {
-	width: 100%;
+	width: 60%;
 }
 
 .hero_details--2 {
@@ -178,6 +178,10 @@
 		border-radius: 100px;
 		gap: 1rem;
 		margin-bottom: 1rem;
+	}
+
+	.hero_small_text_icon {
+		width: 100%;
 	}
 }
 

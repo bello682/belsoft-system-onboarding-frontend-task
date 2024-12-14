@@ -8,53 +8,74 @@ const WhatOurAttendessSays = () => {
 	const cardsData = [
 		{
 			image: imageFrame,
-			name: "Mr Belba Ngoy 1",
+			name: "Mr Belba Ngoy",
 			description: "Always a remarkable experience for my team and myself",
 		},
 		{
 			image: imageFrame,
-			name: "Mr Belba Ngoy 2",
-			description: "Always a remarkable experience for my team and myself",
+			name: "Mr Belba",
+			description:
+				"A cornerstone of innovation and reliability, making every project shine.",
 		},
 		{
 			image: imageFrame,
-			name: "Mr Belba Ngoy 3",
-			description: "Always a remarkable experience for my team and myself",
+			name: "Mrs Jane",
+			description:
+				"Her dedication and attention to detail create an atmosphere of trust and excellence.",
 		},
 		{
 			image: imageFrame,
-			name: "Mr Belba Ngoy 4",
-			description: "Always a remarkable experience for my team and myself",
+			name: "Mr James",
+			description:
+				"Always going above and beyond to ensure perfection in every endeavor.",
 		},
 		{
 			image: imageFrame,
-			name: "Mr Belba Ngoy 5",
-			description: "Always a remarkable experience for my team and myself",
+			name: "Mr Smith",
+			description:
+				"A trailblazer whose leadership fosters creativity and confidence.",
 		},
 		{
 			image: imageFrame,
-			name: "Mr Belba Ngoy 6",
-			description: "Always a remarkable experience for my team and myself",
+			name: "Mrs Phillips",
+			description:
+				"Her passion and expertise turn challenges into incredible opportunities.",
 		},
 		{
 			image: imageFrame,
-			name: "Mr Belba Ngoy 7",
-			description: "Always a remarkable experience for my team and myself",
+			name: "Miss Kim",
+			description:
+				"A dynamic force of energy and innovation, making every moment memorable.",
 		},
 		{
 			image: imageFrame,
-			name: "Mr Belba Ngoy 8",
-			description: "Always a remarkable experience for my team and myself",
+			name: "Mr Leo",
+			description:
+				"A visionary thinker whose work consistently exceeds expectations.",
 		},
 		{
 			image: imageFrame,
-			name: "Mr Belba Ngoy 9",
-			description: "Always a remarkable experience for my team and myself",
+			name: "Mr Kenneth",
+			description:
+				"A brilliant mind whose commitment and ingenuity inspire all around him.",
 		},
 		{
 			image: imageFrame,
-			name: "Mr Belba Ngoy 10",
-			description: "Always a remarkable experience for my team and myself",
+			name: "Mr Benedit",
+			description:
+				"A leader who transforms ideas into impactful realities, time and time again.",
+		},
+		{
+			image: imageFrame,
+			name: "Mr Elum Musk",
+			description:
+				"A true innovator, always pushing boundaries to achieve the extraordinary.",
+		},
+		{
+			image: imageFrame,
+			name: "Mr Bill Gates",
+			description:
+				"A pioneer of progress, whose wisdom and generosity know no bounds.",
 		},
 	];
 
